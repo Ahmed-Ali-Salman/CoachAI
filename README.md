@@ -132,11 +132,4 @@ Endpoints:
 - `POST /api/v1/search/` (semantic search over API entries)
 - `POST /api/v1/protected/*` (requires `x-service-key` header matching `SUPABASE_SERVICE_ROLE_KEY`)
 
-Note: the Streamlit app’s primary knowledge base integration is via Supabase (`coachai/repositories/knowledge_repository.py`). The API module is an additional component.
-
-## Notes / gotchas
-
-- The repo includes a `.env` file locally, but it is gitignored.
-- `requriments.txt` is intentionally referenced by that name in this repo (typo in filename).
-- Supabase service role key should **never** be used in a public client.
 
