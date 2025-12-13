@@ -1,0 +1,7 @@
+streamlit
+supabase
+python-dotenv
+psycopg2-binary
+psycopg2
+sentence_transformers
+cohere

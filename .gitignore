@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.env.*
+venv/
+.venv/
+env/
+.coachAi_env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+
+# Caches
+.cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Large model files and checkpoints
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.pb
+*.onnx
+*.h5
+
+# Tokenizers / merges that may be large
+*.jsonl
+
+# Node
+node_modules/
+
+# Coverage / reports
+.coverage
+coverage.xml
