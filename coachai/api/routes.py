@@ -10,7 +10,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 from .models import KnowledgeEntry, get_db
-from .schemas import (
+from coachai.schemas.schemas import (
     KnowledgeEntry as KnowledgeEntrySchema,
     KnowledgeEntryCreate,
     KnowledgeEntryUpdate,
